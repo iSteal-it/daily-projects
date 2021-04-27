@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Get Coin Info</title>
+  </head>
+  <body>
+    <h2>Date: <%=date %></h2>
+    <h2>Time: <%= time %></h2>
+    <form action="/" method="post">
+      <button type="submit" name="button" value="1">Coin List</button>
+      <button type="submit" name="button" value="2">Currency List</button>
+      <br>
+      <br>
+       <label>Coin Name</label>
+       <input type="text" name="coin">
+       <label>Vs Currency</label>
+       <input type="text" name="currency" value="usd">
+       <button type="submit" name="button" value="3">Go</button>
+    </form>
+  </body>
+</html>
